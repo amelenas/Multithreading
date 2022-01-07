@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%d{yy-MM-dd HH:mm:ss:SSS}] [%t] [%5p] [%c{5}:%M:%L] - %m%n"/>
+		</Console>
+		<RollingFile name="rollingFile"
+					 fileName="logs/log4j2.log"
+					 filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+			<PatternLayout pattern="[%d{yy-MM-dd HH:mm:ss:SSS}] [%t] [%5p] [%c{5}:%M:%L] - %m%n"/>
+
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy
+						size="250 MB" />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<Root level="DEBUG">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="rollingFile" level="warn"/>
+		</Root>
+	</Loggers>
+
+</Configuration>

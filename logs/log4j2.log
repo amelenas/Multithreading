@@ -1,0 +1,12 @@
+[22-01-07 16:21:15:875] [Thread-1] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 16:21:15:875] [Thread-0] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 16:32:59:590] [Thread-1] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 16:34:24:508] [Thread-1] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 16:38:10:809] [Thread-11] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 16:41:28:341] [Thread-11] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 19:40:34:140] [Thread-21] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 19:42:58:796] [Thread-21] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 19:47:00:295] [Thread-21] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 19:52:12:458] [Thread-21] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 19:54:34:444] [Thread-21] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
+[22-01-07 19:55:05:347] [Thread-21] [ERROR] [Writer:writing:23] - java.io.IOException: Stream closed
